@@ -1,0 +1,81 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+   
+       <h1>Halloween 2024 !</h1>
+       <!-- inline css -->
+       <h2 ><b>
+        Get Ready For Some Spooky Adventure
+       </b></h2>
+
+       <h3><b>
+        Invites are out !
+       </b></h3>
+      
+       <div class="intro">
+        <b>
+            HURRY ! 
+            FILL  UP  THE  FORM  BELOW  TO  BOOK  YOUR  TICKETS  FOR  HALLOWEEN  2024  PARTY 
+        </b>
+        <br>
+
+       </div>
+
+
+       <div id="img1">
+        <img src="halloween1.webp" alt="1">
+       </div>
+
+       
+<div id="img2">
+    <img src="halloween2.png" alt="2">
+</div>
+
+
+<div id="img3">
+    <img src="halloween3.png" alt="3">
+</div>
+
+    
+        <h2 id="posts">Posts</h2>
+        <div id="postcontainer" class="post"></div>
+        
+ <!-- form creation -->
+ <div class="form-container">
+        <h2>Registration Form</h2>
+        <form id="Form">
+            
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required>
+            <small class="error" id="usernameError"></small>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <small class="error" id="emailError"></small>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            <small class="error" id="passwordError"></small>
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <small class="error" id="confirmPasswordError"></small>
+
+            <button type="submit">Register</button>
+        </form>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+</body>
+</html>
